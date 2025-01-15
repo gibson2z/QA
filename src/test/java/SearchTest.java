@@ -18,10 +18,10 @@ public class SearchTest {
 
         element(byId("L2AGLb")).click();
 
-        //Найти Дашку
+        //Найти пользоваеля
         $(byName("q")).setValue("Dshkaa").pressEnter();
 
-        //Проверить, что "Дашка" появилась в результатах поиска
+        //Проверить, что пользователь появился в результатах поиска
         $("html").shouldHave(Condition.text("@dshkaa"));
 
         //Открыть профиль
