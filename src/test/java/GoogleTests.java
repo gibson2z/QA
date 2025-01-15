@@ -1,9 +1,9 @@
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selectors.byName;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class GoogleTests {
 
@@ -11,6 +11,8 @@ public class GoogleTests {
     void selenideSearchTest() {
         // Открыть google
         open("https://google.com");
+
+        element(byId("L2AGLb")).click();
 
         // Ввести Selenide в поиск
         $(byName("q")).setValue("Selenide").pressEnter();
