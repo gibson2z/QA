@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-23T10:16:04" hostname="MacBook-Pro-Aleksandr-2.local" time="27.797">
+  <properties/>
+  <testcase name="selenideSearchTest()" classname="SearchTest" time="27.797"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
